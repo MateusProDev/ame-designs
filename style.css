@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    background-color: #f0f0f0;
+    height: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo img{
+    width: 150px;
+    height: 150px;
+    margin-top: -10px;
+    position: absolute;
+    left: 20px;
+  }
+  
+  .barbearia {
+    display: none;
+    cursor: pointer;
+    padding-top: 30px;
+    position: absolute;
+    right: 20px;
+  }
+  
+  .barbearia .line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+  }
+  
+  .nav-links {
+    position: absolute;
+    right: 20px;
+    list-style: none;
+    display: flex;
+    padding-top: 40px;
+  }
+  .nav-links ul {
+    margin-bottom: 20px;
+  }
+  .nav-links a {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+  } 
+  .nav-links a:hover {
+    color: #5C93AA;
+  }
+  
+@media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    
+  .barbearia {
+      display: block;
+    }
+    
+  .barbearia.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .barbearia.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .barbearia.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -8px);
+  }
+  
+  .nav-links.active {
+    width: 77%;
+    height: 150px;
+    display: flex;
+    border-radius: 20px 0 20px 20px;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    background-color: #fff;
+    padding:5px;
+    text-align: center;
+    animation: aparecer 1.5s forwards;
+  }
+    
+  @keyframes aparecer {
+      0% {
+        transform: translateZ(100%); /* Inicia a partir da posição inicial */
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0); /* Move para a esquerda */
+        opacity: 1;
+      }
+  }
+  .nav-links.active li {
+    font-size: 50px;
+    margin-top: -12px;
+    color: #5C93AA;
+  }
+  .nav-links.active li a{
+    margin-top: -5px;
+    color: #5C93AA;
+  }
+  .nav-links.active::before {
+    content: "";
+    width: 30px; /* Largura do retângulo */
+    height: 30px; /* Altura do retângulo */
+    background-color: transparent; /* Cor do retângulo */
+    position: absolute;
+    background-image: url('img/cantoneira.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -29px; /* Distância do topo */
+    right: 0; /* Distância da direita */
+  }
+}
+/*SECAO-UM*/
+
+.ame-secao-um {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura da seção para ocupar toda a altura da viewport */
+    background-color: #c8efff;
+    background-image: url('img/banner-moderno-digital.jpg');
+    background-position: right; /* Posiciona a imagem no canto inferior direito */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.ame-secao-conteudo {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+.ame-secao-conteudo h1 {
+    width: 90%;
+    margin: 20px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 4px 4px 4px #33333359;
+}
+
+.ame-secao-conteudo p{
+    width: 80%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 4px #33333359;
+}
+#ame-secao-um-btn{
+    padding: 10px 35px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #ff4961;
+    color: #fff;
+    box-shadow: 4px 4px 4px #33333359;
+}
+#ame-secao-um-btn:hover{
+    background-color: #31e631;
+    color: #fff;
+}
+
+/* Classe para animação */
+.animate-slide-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Classe para ativar a animação quando estiver visível */
+.animate-slide-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.ame-secao-dois{
+    height: 100vh;
+    background-color: #F0FCFE;
+}
+.ame-secao-dois-um{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.ame-secao-tres{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #F0FCFE;
+}
+#ame-box-text{
+    text-align: center;
+    width: 600px; /* Largura da caixa */
+    margin: auto; /* Margem automática nas laterais */
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 8px 10px 20px 4px #33333323;
+}
+#ame-box-text:hover{
+    animation: scaleAnime 1s;
+}
+#ame-box-text h3{
+   color: #5C93AA;
+}
+#ame-box-text p{
+    text-align: center;
+    text-align: justify;
+    padding-top: 20px;
+}
+#ame-box-img{
+    text-align: center;
+    width: 600px; /* Largura da caixa */
+    margin: auto; /* Margem automática nas laterais */
+    padding: 20px;
+}
+#ame-box-img img{
+    width: 100%;
+}
+.ame-inversao-um{
+    order: 2;
+}
+.ame-inversao-dois{
+    order: 1;
+}
+.ame-secao-projetos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    background-color: #A6D0DE;
+}
+
+.ame-projetos-titulo{
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    background-color: #5C93AA;
+    left: 100px;
+    margin-top: -40px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 4px #33333333;
+}
+.ame-projetos-titulo:hover{
+    background-color: #c8efff;
+    transform: scale(1.1);
+    animation: 2px alternate ease-in;
+}
+.ame-projetos-titulo-h3 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Defina a altura da div, se necessário */
+    color: #fff;
+}
+.ame-projetos-titulo-h3:hover{
+    color: #000;
+}
+.ame-projetos{
+    width: 350px;
+    height: 700px;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px 4px #33333333;
+}
+.ame-projetos img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/* ---- reset ---- */ 
+
+canvas{ 
+    display: block; 
+    vertical-align: bottom; 
+} 
+/* ---- particles.js container ---- */ 
+#particles-js{ 
+    position:absolute; 
+    width: 100%; 
+    height: 100%; 
+    background-color: transparent; 
+    background-image: url("img/banner-moderno-digital.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; 
+} 
+/* ---- stats.js ---- */ 
+.count-particles{ 
+    background: transparent; 
+    position: absolute; 
+    top: 48px; 
+    left: 0; 
+    width: 80px; 
+    color: #13E8E9; 
+    font-size: 
+    .8em; 
+    text-align: left; 
+    text-indent: 4px; 
+    line-height: 14px; 
+    padding-bottom: 2px; 
+    font-family: Helvetica, Arial, sans-serif; 
+    font-weight: bold; 
+} 
+.js-count-particles{ 
+    font-size: 1.1em; 
+} 
+#stats, 
+.count-particles{ 
+    -webkit-user-select: none; 
+    margin-top: 5px; 
+    margin-left: 5px; 
+} 
+#stats{ 
+    border-radius: 3px 3px 0 0; 
+    overflow: hidden; 
+} 
+.count-particles{ 
+    border-radius: 0 0 3px 3px; 
+}
+
+/*NAIMAÇÃO*/
+@keyframes scaleAnime {
+    0%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1.5;
+    }
+
+}
