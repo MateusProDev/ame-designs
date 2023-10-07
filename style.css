@@ -206,6 +206,7 @@ header {
     background-color: #31e631;
     color: #fff;
     box-shadow: 4px 4px 4px #33333359;
+    letter-spacing: 2px;
 }
 #ame-secao-um-btn:hover{
     background-color: #ff4961;
@@ -430,7 +431,7 @@ header {
   text-shadow: 1px 1px 4px #000;
 }
 .ame-sobre-conteudo p{
-  font-size: 26px;
+  font-size: 22px;
   text-align: justify;
   padding-bottom: 30px;
   color: #fff;
@@ -467,6 +468,32 @@ header {
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
 }
+.ame-aprenda-conteudo h3{
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+.ame-aprenda-conteudo p{
+  font-size: 22px;
+  padding-right: 100px;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+.ame-aprenda-conteudo button{
+  font-size: 22px;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  border: none;
+  background-color: #ff4961;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #33333333;
+}
+.ame-aprenda-conteudo button:hover{
+  background-color: #5C93AA;
+  transform: scale(1.1);
+  animation: 2s alternate-reverse ease-in-out;
+}
+
 /* ---- reset ---- */ 
 
 canvas{ 
