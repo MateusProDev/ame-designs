@@ -50,12 +50,46 @@ header {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 18px;
-    padding: 20px;
+  
+    text-shadow: 2px 2px 5px #e7780f6c;
   } 
   .nav-links a:hover {
-    color: #5C93AA;
+    color: #ff4961;
+    text-shadow: 2px 2px 5px #fff;
+    font-size: 20px;
   }
-  
+  .btn2 {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+    overflow: hidden; /* Adicionado para ocultar a parte "extra" da animação */
+}
+
+.btn2::before {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Ajuste a posição da linha para ficar bem próxima ao texto */
+    left: 0;
+    width: 100%; /* Faça a linha ocupar toda a largura do botão */
+    height: 2px; /* Altura da linha */
+    background-color: #ff4961;
+    transform: scaleX(0); /* Inicialmente, a linha não é visível */
+    transform-origin: center; /* A linha começa a crescer da esquerda */
+    transition: transform 0.3s ease-out;
+}
+
+.btn2:hover::before {
+    transform: scaleX(1); /* Ao passar o mouse, a linha cresce */
+    transform-origin: center; /* A linha cresce para a direita */
+}
+
+
 @media screen and (max-width: 768px) {
     .nav-links {
       display: none;
@@ -143,8 +177,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 .ame-secao-conteudo {
     text-align: center; /* Centraliza o conteúdo horizontalmente */
 }
@@ -152,9 +184,9 @@ header {
     width: 90%;
     margin: 20px auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     color: #fff;
-    text-shadow: 4px 4px 4px #33333359;
+    text-shadow: 4px 4px 50px #074f6e7c;
 }
 
 .ame-secao-conteudo p{
@@ -171,13 +203,15 @@ header {
     border: none;
     font-size: 20px;
     border-radius: 5px;
-    background-color: #ff4961;
+    background-color: #31e631;
     color: #fff;
     box-shadow: 4px 4px 4px #33333359;
 }
 #ame-secao-um-btn:hover{
-    background-color: #31e631;
+    background-color: #ff4961;
     color: #fff;
+    transform: scale(1.1);
+    animation: 2px alternate ease-in;
 }
 
 /* Classe para animação */
@@ -194,7 +228,7 @@ header {
 }
 .ame-secao-dois{
     height: 100vh;
-    background-color: #F0FCFE;
+    background-color: #fdfdfd;
 }
 .ame-secao-dois-um{
     width: 100%;
@@ -205,7 +239,7 @@ header {
     width: 100%;
     height: 100vh;
     display: flex;
-    background-color: #F0FCFE;
+    background-color: #fff;
 }
 #ame-box-text{
     text-align: center;
@@ -213,14 +247,18 @@ header {
     margin: auto; /* Margem automática nas laterais */
     background-color: #fff;
     padding: 40px;
-    box-shadow: 8px 10px 20px 4px #33333323;
+    box-shadow: 8px 10px 20px 4px #33333333;
 }
 #ame-box-text:hover{
-    animation: scaleAnime 1s;
+    box-shadow: 8px 8px 20px 8px #ff496128;
+    transform: scale(1.1);
+    animation: 2px alternate ease-in;
+    border-radius: 20px;
 }
 #ame-box-text h3{
-   color: #5C93AA;
+   color: #ff4961;
 }
+
 #ame-box-text p{
     text-align: center;
     text-align: justify;
@@ -234,6 +272,25 @@ header {
 }
 #ame-box-img img{
     width: 100%;
+}
+.ame-caminho{
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 600px auto;
+}
+#ame-caminho-um{
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+}
+#ame-caminho-dois{
+  position: absolute;
+  transform: scaleX(-1);
+  width: 100%;
+  height: 90vh;
 }
 .ame-inversao-um{
     order: 2;
@@ -254,14 +311,15 @@ header {
     position: absolute;
     width: 400px;
     height: 80px;
-    background-color: #5C93AA;
+    background-color: #ff4961;
     left: 100px;
     margin-top: -40px;
     border-radius: 40px;
     box-shadow: 4px 4px 4px #33333333;
 }
 .ame-projetos-titulo:hover{
-    background-color: #c8efff;
+    background-color: #074f6e;
+    color: #fff;
     transform: scale(1.1);
     animation: 2px alternate ease-in;
 }
@@ -272,9 +330,7 @@ header {
     height: 100%; /* Defina a altura da div, se necessário */
     color: #fff;
 }
-.ame-projetos-titulo-h3:hover{
-    color: #000;
-}
+
 .ame-projetos{
     width: 350px;
     height: 700px;
@@ -289,6 +345,24 @@ header {
     height: 100%;
     border-radius: 10px;
 }
+
+.ame-secao-autores{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #A6D0DE;
+}
+.ame-autores{
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 4px 4px 9px 4px #33333333;
+  background-color: #fff;
+}
+
+
 /* ---- reset ---- */ 
 
 canvas{ 
