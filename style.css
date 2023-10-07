@@ -433,12 +433,12 @@ header {
 .ame-sobre-conteudo p{
   font-size: 22px;
   text-align: justify;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   color: #fff;
   text-shadow: 1px 1px 10px #000;
 }
 .ame-sobre-conteudo button{
-  font-size: 22px;
+  font-size: 20px;
   padding: 10px 20px;
   box-shadow: 4px 4px 4px #33333333;
   border-radius: 5px;
@@ -475,13 +475,13 @@ header {
 }
 .ame-aprenda-conteudo p{
   font-size: 20px;
-  padding: auto;
+  padding-bottom: 20px;
   text-align: justify;
 }
 
 
 .ame-aprenda-conteudo button{
-  font-size: 22px;
+  font-size: 20px;
   padding: 10px 20px;
   letter-spacing: 2px;
   border: none;
