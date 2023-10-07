@@ -508,6 +508,22 @@ header {
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
+  font-size: 22px;
+  line-height: 35px;
+}
+.ame-rodape-redes{
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 50px;
+  gap: 20px;
+}
+.ame-rodape-redes img{
+  width: 50px;
+}
+.ame-rodape-redes img:hover{
+  transform: scale(1.1);
+  filter: drop-shadow(1px 1px 1px #ff0022);
 }
 /* ---- reset ---- */ 
 
