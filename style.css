@@ -373,7 +373,7 @@ header {
 }
 .ame-autores{
   width: 400px;
-  height: 400px;
+  height: auto;
   margin: auto;
   padding: 40px;
   border-radius: 10px;
@@ -381,7 +381,6 @@ header {
   background-color: #fff;
 }
 .ame-autores h3{
-  margin-top: 55px;
   padding-bottom: 30px;
   font-size: 26px;
   
