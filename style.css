@@ -304,7 +304,7 @@ header {
     display: flex;
     gap: 10px;
     justify-content: space-evenly;
-    background-color: #A6D0DE;
+    background-color: #f0f0f0;
 }
 
 .ame-projetos-titulo{
@@ -312,7 +312,7 @@ header {
     width: 400px;
     height: 80px;
     background-color: #ff4961;
-    left: 100px;
+    left: 300px;
     margin-top: -40px;
     border-radius: 40px;
     box-shadow: 4px 4px 4px #33333333;
@@ -351,16 +351,59 @@ header {
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
-  background-color: #A6D0DE;
+  background-color: #f0f0f0;
+}
+.ame-projetos-titulo-dois{
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  background-color: #ff4961;
+  right: 300px;
+  margin-top: -40px;
+  border-radius: 40px;
+  box-shadow: 4px 4px 4px #33333333;
+}
+.ame-projetos-titulo:hover{
+  background-color: #074f6e;
+  color: #fff;
+  transform: scale(1.1);
+  animation: 2px alternate ease-in;
 }
 .ame-autores{
   width: 400px;
   height: 400px;
   margin: auto;
+  padding: 40px;
   border-radius: 10px;
   box-shadow: 4px 4px 9px 4px #33333333;
   background-color: #fff;
 }
+.ame-autores h3{
+  margin-top: 55px;
+  padding-bottom: 30px;
+  font-size: 26px;
+  
+}
+.ame-autores p{
+  text-align: justify;
+  line-height: 22px;
+  font-size: 20px;
+}.ame-autores img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.ame-autor-img{
+  display: flex;
+  margin-top: 30px;
+}
+.ame-autor-img p{
+  font-size: 14px;
+  line-height: 18px;
+  margin: 15px;
+}
+
+
 
 
 /* ---- reset ---- */ 
