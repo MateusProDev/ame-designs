@@ -339,6 +339,9 @@ header {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 4px 4px 9px 4px #33333333;
+    transform: scale(1.1);
+    animation: 2px alternate ease-in;
+    
 }
 .ame-projetos img{
     width: 100%;
@@ -351,7 +354,6 @@ header {
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
-  background-color: #f0f0f0;
 }
 .ame-projetos-titulo-dois{
   position: absolute;
@@ -363,7 +365,7 @@ header {
   border-radius: 40px;
   box-shadow: 4px 4px 4px #33333333;
 }
-.ame-projetos-titulo:hover{
+.ame-projetos-titulo-dois:hover{
   background-color: #074f6e;
   color: #fff;
   transform: scale(1.1);
