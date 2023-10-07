@@ -403,10 +403,70 @@ header {
   line-height: 18px;
   margin: 15px;
 }
-
-
-
-
+.ame-secao-sobre{
+  width: 100%;
+  height: 100vh;
+  background-image: url('img/arte-moderna.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #c8efff;
+  display: flex;
+  justify-content: space-evenly;
+}
+.ame-sobre{
+  width: 50%;
+  height: 600px;
+  margin: 0 0 0 155px;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Define a altura desejada */
+  padding: 0 40px;
+}
+.ame-sobre-conteudo h3{
+  font-size: 38px;
+  padding-bottom: 30px;
+  color: #fff;
+  text-shadow: 1px 1px 4px #000;
+}
+.ame-sobre-conteudo p{
+  font-size: 26px;
+  text-align: justify;
+  padding-bottom: 30px;
+  color: #fff;
+  text-shadow: 1px 1px 10px #000;
+}
+.ame-sobre-conteudo button{
+  font-size: 22px;
+  padding: 10px 20px;
+  box-shadow: 4px 4px 4px #33333333;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff4961;
+  color: #fff;
+}
+.ame-sobre-conteudo button:hover{
+  background-color: #5C93AA;
+  transform: scale(1.1);
+  animation: 2px alternate ease-in;
+}
+.ame-secao-rodape{
+  width: 100%;
+  height: 100vh;
+}
+.ame-aprenda{
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+.ame-aprenda-conteudo{
+  width: 50%;
+  height: 100%;
+  margin-top: 14px;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
 /* ---- reset ---- */ 
 
 canvas{ 
