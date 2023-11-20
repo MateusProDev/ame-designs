@@ -695,12 +695,14 @@ canvas{
   background-color: #fff;
 }
 .ame-autores{
-  width: 50%;
-  height: 400px;
+  width: 60%;
+  height: auto;
+}
+.ame-secao-autores div:nth-child(2) {
+  margin-bottom: 20px;
 }
 .ame-autores h3{
-  margin-top: -10px;
-  font-size: 24px;
+  font-size: 18px;
 }
 .ame-autores p{
   margin-top: -20px;
