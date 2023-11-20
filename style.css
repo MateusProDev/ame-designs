@@ -585,6 +585,9 @@ canvas{
   top: -20px; /* Distância do topo */
   right: 0; /* Distância da direita */
 }
+header{
+  margin-top: -20px;
+}
 .logo img{
   width: 100px;
   height: 100px;
@@ -608,7 +611,6 @@ canvas{
 }
 .ame-secao-um {
   width: 100%;
-  margin: -20px 0;
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
