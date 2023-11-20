@@ -181,7 +181,7 @@ header {
 }
 #ame-box-text:hover{
     box-shadow: 8px 8px 20px 8px #ff496128;
-    transform: scale(1.1);
+    transform: scale(1.01);
     animation: 2px alternate ease-in;
     border-radius: 20px;
 }
@@ -248,7 +248,7 @@ header {
 .ame-projetos-titulo:hover{
     background-color: #074f6e;
     color: #fff;
-    transform: scale(1.1);
+    transform: scale(1.05);
     animation: 2px alternate ease-in;
 }
 .ame-projetos-titulo-h3 {
@@ -595,10 +595,10 @@ canvas{
   left: 0px;
 }
 .ame-secao-conteudo h1 {
-  font-size: 24px;
+  font-size: 26px;
 }
 .ame-secao-conteudo p {
-  font-size: 12px;
+  font-size: 13px;
 }
 #ame-secao-um-btn{
   padding: 5px 20px;
@@ -662,7 +662,8 @@ canvas{
 }
 #ame-box-text{
   width: 50%;
-  font-size: 11px;
+  font-size: 12px;
+  border-radius: 20px;
 }
 
 /*secao projetos mobile*/
