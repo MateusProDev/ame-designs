@@ -585,9 +585,7 @@ canvas{
   top: -20px; /* Distância do topo */
   right: 0; /* Distância da direita */
 }
-header{
-  margin-top: -20px;
-}
+
 .logo img{
   width: 100px;
   height: 100px;
@@ -611,10 +609,15 @@ header{
 }
 .ame-secao-um {
   width: 100%;
+  margin: -20px 0;
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
   height: 100vh; /* Define a altura da seção para ocupar toda a altura da viewport */
+}
+#ame-secao-um-btn{
+  font-size: 22px;
+  padding: 5px 20px;
 }
 .barbearia {
   padding-top: 40px;
