@@ -105,7 +105,7 @@ header {
 }
 .ame-secao-conteudo {
     text-align: center; /* Centraliza o conteúdo horizontalmente */
-}
+  }
 .ame-secao-conteudo h1 {
     width: 90%;
     margin: 20px auto;
@@ -748,4 +748,3 @@ canvas{
   display: block;
 }
 }
-
