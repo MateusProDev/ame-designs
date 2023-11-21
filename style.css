@@ -688,27 +688,43 @@ body{
 }
 
 /*secao projetos mobile*/
+
+.ame-projetos-titulo {
+ display: none;
+}
+.ame-projetos-titulo-mobile{
+  background-color: #ff4961;
+  z-index: 999;
+  padding: 20px;
+  border-radius: 0 0 30px 30px;
+  text-align: center;
+  color: #fff;
+  margin: 50px;
+}
+
 #pro{
   font-size: 14px;
   color: #000;
 }
 .ame-secao-projetos{
-  width: 100%;
   height: auto;
   display: block;
-  background-color: #f0f0f0;
+  background-color: #5C93AA;
 }
-
+.ame-secao-projetos .ame-projetos{
+  margin-bottom: 100px;
+}
 .ame-projetos{
   width: 5%;
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
   height: 100vh; /* Define a altura da seção para ocupar toda a altura da viewport */
+  
 }
 .ame-projetos img{
-  width: 250px;
-  height: 500px;
+  width: 90vw;
+  height: 90vh;
 }
 .ame-secao-autores{
   height: auto;
@@ -773,3 +789,4 @@ body{
   font-size: 16px;
 }
 }
+
