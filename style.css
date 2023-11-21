@@ -588,6 +588,9 @@ canvas{
   top: -20px; /* Distância do topo */
   right: 0; /* Distância da direita */
 }
+body{
+  background-color: #fff;
+}
 .ame-conteiner{
   background-color: #fff;
 }
@@ -620,6 +623,14 @@ canvas{
   align-items: center; /* Centraliza verticalmente */
   
 }
+.ame-secao-um {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Define a altura da seção para ocupar toda a altura da viewport */
+  
+}
 #ame-secao-um-btn{
   font-size: 22px;
   padding: 5px 20px;
@@ -639,6 +650,7 @@ canvas{
   height: auto;
   margin-bottom: 100px;
   display: block;
+  
 }
 .ame-conteiner section:nth-child(2){
   margin-top: 20px;
@@ -652,7 +664,6 @@ canvas{
   display: block;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
-  
 }
 
 .ame-caminho{
@@ -746,5 +757,19 @@ canvas{
 
 .ame-aprenda{
   display: block;
+}
+/*sobre*/
+.ame-secao-sobre{
+  display: flex;
+  box-shadow: inset 400px 400px 400px 400px #33333333;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Define a altura da seção para ocupar toda a altura da viewport */
+}
+.ame-sobre{
+  margin-left: -5px;
+}
+.ame-sobre-conteudo p{
+  font-size: 16px;
 }
 }
