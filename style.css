@@ -354,14 +354,14 @@ header {
   font-size: 32px;
   padding-bottom: 30px;
   color: #fff;
-  text-shadow: 1px 1px 4px #000;
+  text-shadow: 1px 1px 4px #333333;
 }
 .ame-sobre-conteudo p{
   font-size: 22px;
   text-align: justify;
   padding-bottom: 20px;
   color: #fff;
-  text-shadow: 1px 1px 10px #000;
+  text-shadow: 1px 1px 10px #333333;
 }
 .ame-sobre-conteudo button{
   font-size: 20px;
@@ -771,8 +771,7 @@ body{
   margin-left: -5px;
 }
 .ame-sobre-conteudo p{
-  font-size: 16px;
-
+  font-size: 14px;
 }
 .ame-sobredois{
   display: none;
@@ -813,3 +812,4 @@ body{
   width: 25px;
 }
 }
+
