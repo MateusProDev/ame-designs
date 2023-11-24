@@ -326,7 +326,7 @@ header {
   margin-top: 30px;
 }
 .ame-autor-img p{
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
   margin: 15px;
 }
@@ -770,8 +770,11 @@ body{
 .ame-sobre{
   margin-left: -5px;
 }
+.ame-sobre-conteudo h3{
+  font-size: 18px;
+}
 .ame-sobre-conteudo p{
-  font-size: 14px;
+  font-size: 12px;
 }
 .ame-sobredois{
   display: none;
@@ -784,7 +787,7 @@ body{
   padding: 0;
 }
 .ame-aprenda-box h3{
-  font-size: 14px;
+  font-size: 18px;
 }
 .ame-aprenda-box p{
   font-size: 12px;
@@ -812,4 +815,3 @@ body{
   width: 25px;
 }
 }
-
