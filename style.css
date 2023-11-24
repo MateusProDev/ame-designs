@@ -51,7 +51,7 @@ header {
     text-decoration: none;
     font-size: 18px;
   
-    text-shadow: 2px 2px 5px #e7780f6c;
+    text-shadow: 2px 2px 5px #33333333;
   } 
   .nav-links a:hover {
     color: #ff4961;
@@ -97,7 +97,6 @@ header {
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     height: 100vh; /* Define a altura da seção para ocupar toda a altura da viewport */
-    background-color: #c8efff;
     background-image: url('img/banner-moderno-digital.jpg');
     background-position: right; /* Posiciona a imagem no canto inferior direito */
     background-repeat: no-repeat;
@@ -107,38 +106,36 @@ header {
     text-align: center; /* Centraliza o conteúdo horizontalmente */
   }
 .ame-secao-conteudo h1 {
-    width: 90%;
+    width: 80%;
     margin: 20px auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 36px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 42px;
     color: #fff;
     text-shadow: 4px 4px 50px #074f6e7c;
 }
 
 .ame-secao-conteudo p{
-    width: 80%;
+    width: 50%;
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
     color: #f0f0f0;
     margin-bottom: 20px;
-    text-shadow: 4px 4px 4px #33333359;
 }
 #ame-secao-um-btn{
     padding: 10px 35px;
     border: none;
     font-size: 20px;
-    border-radius: 5px;
     background-color: #31e631;
     color: #fff;
-    box-shadow: 4px 4px 4px #33333359;
-    letter-spacing: 2px;
+    box-shadow: 4px 4px 4px #33333333;
 }
 #ame-secao-um-btn:hover{
     background-color: #ff4961;
     color: #fff;
     transform: scale(1.1);
     animation: 2px alternate ease-in;
+    box-shadow: 4px 4px 4px #33333333;
 }
 
 /* Classe para animação */
@@ -386,14 +383,14 @@ header {
 }
 .ame-aprenda{
   display: flex;
-  width: 100%;
   height: 50%;
+  padding: 0 25px 0 0;
 }
 .ame-aprenda-conteudo{
   width: 50%;
   height: 100%;
   margin-top: 14px;
-  padding-right: 50px;
+  
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
@@ -407,7 +404,6 @@ header {
   padding-bottom: 20px;
   text-align: justify;
 }
-
 
 .ame-aprenda-conteudo button{
   font-size: 20px;
@@ -567,10 +563,15 @@ canvas{
       opacity: 1;
     }
 }
+.nav-links.active{
+  background-color: #fff;
+  z-index: 999;
+}
 .nav-links.active li {
   font-size: 50px;
-  margin-top: -12px;
+  margin-top: -9px;
   color: #5C93AA;
+  
 }
 .nav-links.active li a{
   margin-top: -5px;
@@ -588,8 +589,10 @@ canvas{
   top: -20px; /* Distância do topo */
   right: 0; /* Distância da direita */
 }
+
 body{
   background-color: #fff;
+  overflow-x: hidden;
 }
 .ame-conteiner{
   background-color: #fff;
@@ -608,33 +611,26 @@ body{
   font-size: 13px;
 }
 #ame-secao-um-btn{
-  padding: 5px 20px;
-  font-size: 12px;
+  padding: 6px 10px;
+  font-size: 18px;
 }
-#ame-secao-um-btn:hover{
-  transform: scale(1.1);
-  animation: 2px alternate ease-in;
-}
+
 .ame-secao-um {
   width: 100%;
   display: flex;
-  margin-top: -30px;
+  margin: -20px 0;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
-  
+  height: 100vh; /* Define a altura da seção para ocupar toda a altura da viewport */ 
 }
-.ame-secao-um {
-  width: 100%;
-  display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  height: 100vh; /* Define a altura da seção para ocupar toda a altura da viewport */
-  
+.ame-secao-conteudo h1 {
+  width: 95%;
 }
-#ame-secao-um-btn{
-  font-size: 22px;
-  padding: 5px 20px;
+
+.ame-secao-conteudo p{
+  width: 85%;
 }
+
 .barbearia {
   padding-top: 40px;
 }
@@ -757,6 +753,7 @@ body{
   margin-top: -130px;
   width: 100%;
 }
+/*sobre*/
 .ame-secao-sobre{
   width: 100%;
   display: block;
@@ -764,17 +761,6 @@ body{
 .ame-sobre{
   width: 70%;
 }
-.ame-sobre-conteudo{
-  margin-top: -60px;
-}
-.ame-sobredois{
-  display: none;
-}
-
-.ame-aprenda{
-  display: block;
-}
-/*sobre*/
 .ame-secao-sobre{
   display: flex;
   box-shadow: inset 400px 400px 400px 400px #33333333;
@@ -787,6 +773,44 @@ body{
 }
 .ame-sobre-conteudo p{
   font-size: 16px;
+
+}
+.ame-sobredois{
+  display: none;
+}
+/*rodpé*/
+
+.ame-aprenda{
+  display: flex;
+  height: 100%;
+}
+.ame-aprenda-box h3{
+  font-size: 14px;
+}
+.ame-aprenda-box p{
+  font-size: 12px;
+}
+.ame-aprenda-box button{
+  font-size: 10px;
+  padding: 8px;
+}
+.ame-aprenda-conteudo{
+  margin: 0;
+}
+.ame-aprenda-conteudo img{
+  width: 100%;
+}
+/*rodape*/
+.ame-rodape-end{
+  font-size: 16px;
+  line-height: 20px;
+}
+.ame-rodape-redes{
+  bottom: 40px;
+  margin-top: -2px;
+}
+.ame-rodape-redes a img{
+  width: 25px;
 }
 }
 
