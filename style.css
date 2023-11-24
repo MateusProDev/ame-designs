@@ -592,7 +592,6 @@ canvas{
 
 body{
   background-color: #fff;
-  overflow-x: hidden;
 }
 .ame-conteiner{
   background-color: #fff;
@@ -783,6 +782,7 @@ body{
 .ame-aprenda{
   display: flex;
   height: 100%;
+  padding: 0;
 }
 .ame-aprenda-box h3{
   font-size: 14px;
@@ -813,4 +813,3 @@ body{
   width: 25px;
 }
 }
-
