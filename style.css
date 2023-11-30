@@ -63,6 +63,7 @@ header {
     display: inline-block;
     margin-right: 20px;
     text-transform: uppercase;
+    border-radius: 10px;
     color: #fefefe;
     text-decoration: none;
     font-weight: 600;
@@ -125,6 +126,7 @@ header {
 #ame-secao-um-btn{
     padding: 10px 35px;
     border: none;
+    border-radius: 3px;
     font-size: 20px;
     background-color: #31e631;
     color: #fff;
