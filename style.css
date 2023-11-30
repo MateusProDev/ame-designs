@@ -584,7 +584,7 @@ body{
 
 .ame-secao-um {
   width: 100%;
-  height: 90vh; /* Define a altura da seção para ocupar toda a altura da viewport */ 
+  height: 95vh; /* Define a altura da seção para ocupar toda a altura da viewport */ 
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
@@ -821,3 +821,4 @@ body{
   width: 25px;
 }
 }
+
