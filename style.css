@@ -284,7 +284,7 @@ header {
 }
 .ame-projetos-titulo-dois{
   position: absolute;
-  width: 400px;
+  width: 90%;
   height: 80px;
   background-color: #ff4961;
   right: 300px;
@@ -702,6 +702,7 @@ body{
   color: #000;
 }
 .ame-secao-projetos{
+  width: 50%;
   height: auto;
   display: block;
   background-color: #5C93AA;
@@ -725,7 +726,7 @@ body{
   height: auto;
   display: block;
   padding: 100px 0 60px 0;
-  background-color: #fff;
+  background-color: #5C93AA;
 }
 .ame-autores{
   width: 60%;
@@ -752,6 +753,9 @@ body{
   margin-top: -130px;
   width: 100%;
 }
+.ame-projetos-titulo-h3 {
+  width: 100%;
+}
 /*sobre*/
 .ame-secao-sobre{
   width: 100%;
@@ -771,10 +775,10 @@ body{
   margin-left: -5px;
 }
 .ame-sobre-conteudo h3{
-  font-size: 18px;
+  font-size: 24px;
 }
 .ame-sobre-conteudo p{
-  font-size: 12px;
+  font-size: 18px;
 }
 .ame-sobredois{
   display: none;
@@ -784,18 +788,18 @@ body{
   display: flex;
   justify-content: center; /* Centraliza a div interna horizontalmente */
   align-items: center; /* Centraliza a div interna verticalmente */
-  height: 100vh; /* Opcional: ajusta a altura conforme necessário */
+  height: 120vh; /* Opcional: ajusta a altura conforme necessário */
 }
 
 .ame-aprenda-box h3{
   font-size: 18px;
 }
 .ame-aprenda-box p{
-  font-size: 12px;
+  font-size: 16px;
 }
 .ame-aprenda-box button{
-  font-size: 10px;
-  padding: 8px;
+  font-size: 15px;
+  padding: 10px;
 }
 .ame-aprenda-conteudo{
   margin: 0;
@@ -817,4 +821,3 @@ body{
   width: 25px;
 }
 }
-
