@@ -383,40 +383,7 @@ header {
   width: 100%;
   height: auto;
 }
-.ame-aprenda{
-  display: flex;
-  height: 50%;
-  padding: 0 25px 0 0;
-}
-.ame-aprenda-conteudo{
-  width: 50%;
-  height: 100%;
-  margin-top: 14px;
-  
-  display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-}
-.ame-aprenda-conteudo h3{
-  font-size: 32px;
-  padding-bottom: 30px;
-}
-.ame-aprenda-conteudo p{
-  font-size: 20px;
-  padding-bottom: 20px;
-  text-align: justify;
-}
 
-.ame-aprenda-conteudo button{
-  font-size: 20px;
-  padding: 10px 20px;
-  letter-spacing: 2px;
-  border: none;
-  background-color: #ff4961;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 4px 4px 4px #33333333;
-}
 .ame-aprenda-conteudo button:hover{
   background-color: #5C93AA;
   transform: scale(1.1);
@@ -810,7 +777,8 @@ body{
   padding: 20px 0;
 }
 .ame-aprenda img{
-  width: 100%;
+  width: 80%;
+  margin: 0 AUTO;
 }
 .ame-aprenda button{
   padding: 5px 15px;
@@ -829,14 +797,16 @@ body{
 }
 /*rodape*/
 .ame-rodape{
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%; /* Certifique-se de que a altura da div seja definida para 100% */
+  height: 50%; /* Certifique-se de que a altura da div seja definida para 100% */
   text-align: center;
 }
 .ame-rodape-end {
   width: 80%;
+  height: auto;
   font-size:  16px;
   text-align: center;
   display: block;
@@ -851,4 +821,3 @@ body{
   width: 25px;
 }
 }
-
