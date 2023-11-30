@@ -622,8 +622,9 @@ body{
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
-  margin: 20px 0;
+  margin: 0;
 }
+
 .ame-secao-conteudo h1 {
   width: 95%;
 }
@@ -827,3 +828,4 @@ body{
   width: 25px;
 }
 }
+
