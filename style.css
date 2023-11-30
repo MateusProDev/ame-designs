@@ -381,7 +381,7 @@ header {
 }
 .ame-secao-rodape{
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 .ame-aprenda{
   display: flex;
@@ -441,7 +441,6 @@ header {
 .ame-rodape-redes{
   display: flex;
   justify-content: space-evenly;
-  position: absolute;
   bottom: 50px;
   gap: 20px;
 }
@@ -757,7 +756,7 @@ body{
 }
 .ame-projetos-titulo-dois {
   left: 0px;
-  margin-top: -130px;
+  margin-top: -90px;
   width: 100%;
 }
 .ame-projetos-titulo-h3 {
@@ -785,47 +784,71 @@ body{
   font-size: 24px;
 }
 .ame-sobre-conteudo p{
-  font-size: 18px;
+  font-size: 14px;
 }
 .ame-sobredois{
   display: none;
 }
 /*rodpé*/
-.ame-secao-flex {
+.ame-secao-aprenda{
+  display: block;
+  box-shadow: inset 400px 400px 400px 400px #33333333;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: auto; /* Define a altura da seção para ocupar toda a altura da viewport */
+  padding: 0 0;
+}
+.ame-aprenda{
   display: flex;
-  justify-content: center; /* Centraliza a div interna horizontalmente */
-  align-items: center; /* Centraliza a div interna verticalmente */
-  height: 120vh; /* Opcional: ajusta a altura conforme necessário */
+  height: 50%;
+  padding: 40px 0 0 0;
+  background-color: #fff;
 }
-
-.ame-aprenda-box h3{
-  font-size: 18px;
+.ame-aprenda h3{
+  font-size: 14px;
 }
-.ame-aprenda-box p{
-  font-size: 16px;
+.ame-aprenda p{
+  font-size: 12px;
+  padding: 20px 0;
 }
-.ame-aprenda-box button{
-  font-size: 15px;
-  padding: 10px;
-}
-.ame-aprenda-conteudo{
-  margin: 0;
-}
-.ame-aprenda-conteudo img{
+.ame-aprenda img{
   width: 100%;
-  height: 200px;
+}
+.ame-aprenda button{
+  padding: 5px 15px;
+  border: none;
+  background-color: #ff4961;
+  color: #fff;
+  border-radius: 5px;
+}
+.ame-aprenda button:hover{
+  transform: scale(1.05);
+  background-color: #5C93AA;
+}
+.ame-aprenda-cont{
+  padding: 0 60px 40px 60px;
+  text-align: justify;
 }
 /*rodape*/
-.ame-rodape-end{
-  font-size: 16px;
-  line-height: 20px;
+.ame-rodape{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Certifique-se de que a altura da div seja definida para 100% */
+  text-align: center;
+}
+.ame-rodape-end {
+  width: 80%;
+  font-size:  16px;
+  text-align: center;
+  display: block;
+  padding: 40px 0;
 }
 .ame-rodape-redes{
   bottom: 40px;
-  margin-top: -2px;
+  margin-top: 40px;
 }
 .ame-rodape-redes a img{
   width: 25px;
 }
 }
-
