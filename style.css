@@ -789,10 +789,9 @@ body{
 .ame-sobredois{
   display: none;
 }
-/*rodpé*/
+/* aprenda rodapé*/
 .ame-secao-aprenda{
   display: block;
-  box-shadow: inset 400px 400px 400px 400px #33333333;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
   height: auto; /* Define a altura da seção para ocupar toda a altura da viewport */
@@ -802,7 +801,6 @@ body{
   display: flex;
   height: 50%;
   padding: 40px 0 0 0;
-  background-color: #fff;
 }
 .ame-aprenda h3{
   font-size: 14px;
@@ -836,6 +834,7 @@ body{
   justify-content: center;
   height: 100%; /* Certifique-se de que a altura da div seja definida para 100% */
   text-align: center;
+  background-color: #fff;
 }
 .ame-rodape-end {
   width: 80%;
