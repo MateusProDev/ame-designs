@@ -834,7 +834,6 @@ body{
   justify-content: center;
   height: 100%; /* Certifique-se de que a altura da div seja definida para 100% */
   text-align: center;
-  background-color: #fff;
 }
 .ame-rodape-end {
   width: 80%;
@@ -852,3 +851,4 @@ body{
   width: 25px;
 }
 }
+
