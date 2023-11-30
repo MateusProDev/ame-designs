@@ -617,10 +617,9 @@ body{
 .ame-secao-um {
   width: 100%;
   display: flex;
-  margin: 20px 0;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
-  height: 90vh; /* Define a altura da seção para ocupar toda a altura da viewport */ 
+  height: 100vh; /* Define a altura da seção para ocupar toda a altura da viewport */ 
 }
 .ame-secao-conteudo h1 {
   width: 95%;
@@ -736,17 +735,21 @@ body{
   margin-bottom: 20px;
 }
 .ame-autores h3{
-  font-size: 18px;
+  font-size: 16px;
 }
 .ame-autores p{
   margin-top: -20px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .ame-autor-img{
   display: block;
 }
 .ame-autor-img img{
   margin: -20px 0 20px 0;
+}
+.ame-autor-img p{
+  font-size: 11px;
+  text-align: justify;
 }
 .ame-projetos-titulo-dois {
   left: 0px;
